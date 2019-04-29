@@ -1,4 +1,4 @@
-# MavenProject
+# Gradle Project
 
 ### Setup
 * Install Gradle [Link](https://gradle.org/install/)
