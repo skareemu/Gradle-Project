@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E2E Tests">
+  <listeners>
+    <listener class-name="com.reporting.ExtentReport"/>
+  </listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.twitterAPI_E2E.E2E_Tweet_GetAllTweets"/>
+      <class name="com.twitterAPI_E2E.E2E_Tweet_Retweet"/>
+      <class name="com.twitterAPI_E2E.E2E_Tweet_DeleteTweet"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
