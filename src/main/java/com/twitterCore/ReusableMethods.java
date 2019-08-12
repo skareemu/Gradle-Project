@@ -27,7 +27,7 @@ public class ReusableMethods {
 	
 	private Properties loadEnvProp() throws IOException{
 		File currentDir = new File("");		
-		FileInputStream fis = new FileInputStream(currentDir.getAbsolutePath()+"\\src\\main\\resources\\env.properties");
+		FileInputStream fis = new FileInputStream(currentDir.getAbsolutePath()+"/src/main/resources/env.properties");
 		prop.load(fis);
 		return prop;
 	}
